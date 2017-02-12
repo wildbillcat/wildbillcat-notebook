@@ -8,6 +8,7 @@ USER root
 # R pre-requisites
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+	mysql-devel \
     r-cran-rmysql
 	
 	
